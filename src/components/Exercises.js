@@ -26,18 +26,18 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         fetchExercisesData();
     }, [bodyPart]);
 
-    // Pagination
-    let currentExercises = [];
-    if (Array.isArray(exercises)) {
-        const indexOfLastExercise = currentPage * exercisesPerPage;
-        const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
-        currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
-    }
+    // Pagination - next
+    // let currentExercises = [];
+    // if (Array.isArray(exercises)) {
+    //     const indexOfLastExercise = currentPage * exercisesPerPage;
+    //     const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
+    //     currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
+    // }
 
     // Pagination
-    // const indexOfLastExercise = currentPage * exercisesPerPage;
-    // const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
-    // const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
+    const indexOfLastExercise = currentPage * exercisesPerPage;
+    const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
+    const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise);
 
     const paginate = (event, value) => {
         setCurrentPage(value);
