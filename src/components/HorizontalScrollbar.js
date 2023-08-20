@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import { Box, Typography } from '@mui/material';
-
 import ExerciseCard from './ExerciseCard';
 import BodyPart from './BodyPart';
 import RightArrowIcon from '../assets/icons/right-arrow.png';

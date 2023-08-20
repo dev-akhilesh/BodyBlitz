@@ -180,7 +180,7 @@ body {
 
 .scroll-content {
   display: flex;
-  gap: 20px; /* Adjust gap as needed */
+  gap: 20px; 
   transition: transform 0.3s ease-in-out;
   transform: translateX(-100px);
 }
