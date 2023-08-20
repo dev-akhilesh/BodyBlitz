@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
-
 import Logo1 from '../assets/images/logo1.png';
 
 const Navbar = () => (
