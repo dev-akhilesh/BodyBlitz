@@ -63,4 +63,4 @@ To run this project locally, follow these steps:
 
 ## Contributing
 
-I welcome contributions to enhance the BodyBlitz Gym website. If you have any ideas for improvements or new features, please open an issue or submit a pull request. Your input is highly appreciated!
+
