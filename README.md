@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
 
 - React.js
 - Material-UI for styling
-- Rapid API
+- Rapid API - Exercise DB
 - YouTube API (for video integration)
 - HTML5/CSS3
 - JavaScript
