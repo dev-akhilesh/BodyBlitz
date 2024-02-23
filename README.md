@@ -1,4 +1,8 @@
-# BodyBlitz Gym Website
+# BodyBlitz Gym Website 
+
+**Deployed Link** (https://body-blitz.vercel.app/)
+
+**Demo Link** (https://drive.google.com/file/d/10N7prlEKMBrPe9QWaBCBn08xyBynve-n/view?usp=sharing)
 
 <img src="./src/assets/images/logo1.png" alt="BodyBlitz Gym" width="200"/>
 
